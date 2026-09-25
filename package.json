@@ -1,0 +1,14 @@
+{
+  "name": "meera-notes-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram bot that turns Meera's raw notes into LinkedIn posts in her voice, hosted on Vercel.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "webhook": "node scripts/set-webhook.js",
+    "try": "node scripts/try-note.js"
+  }
+}
